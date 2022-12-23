@@ -1,4 +1,4 @@
-# write a gui application that calculate some phone call charges 
+# write a gui application that calculate the park fee in the different time intervals of a day
 
 import tkinter as tk
 from tkinter import messagebox as mb
@@ -27,7 +27,7 @@ def calculated_charges():
         return message_box(result)
         
 def message_box(result):
-        mb.showinfo("Total Charges",f"Your total charges = ${result}")
+        mb.showinfo("Total Park Fee",f"Your total charges = ${result}")
 
 entry = tk.Entry(window,font = ("Consolas",12) )
 entry.place(x=200,y=88)
